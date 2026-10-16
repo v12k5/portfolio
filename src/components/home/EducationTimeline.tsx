@@ -1,0 +1,2 @@
+import { education } from '@/data/education';
+export function EducationTimeline() { return <div className="education-card"><p className="education-label">EDUCATION</p><div>{education.map((item, index) => <div className="education-item" key={item.id}><div className="education-number">{String(index + 1).padStart(2, '0')}</div><div className="education-copy"><strong>{item.title}</strong><span>{item.detail}</span></div></div>)}</div></div>; }

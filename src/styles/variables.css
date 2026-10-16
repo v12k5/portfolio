@@ -1,0 +1,24 @@
+:root {
+  --color-bg: #f6f3ec;
+  --color-surface: #fffdfa;
+  --color-surface-muted: #f0ede5;
+  --color-navy: #17233d;
+  --color-teal: #075f56;
+  --color-teal-muted: #347f7b;
+  --color-sage: #dce4d4;
+  --color-gray: #777f8a;
+  --color-border: #e8e5de;
+  --color-cream: #f7f0df;
+  --shadow-soft: 0 10px 26px rgba(23, 35, 61, 0.08);
+  --shadow-button: -7px 7px 0 rgba(23, 35, 61, 0.72), -11px 11px 0 rgba(23, 35, 61, 0.1);
+  --radius-page: 60px;
+  --radius-card: 32px;
+  --radius-image: 22px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --transition-fast: 180ms var(--ease);
+  --transition-normal: 250ms var(--ease);
+  --transition-reveal: 550ms var(--ease);
+  --shape-organic-portrait: 18% 14% 20% 12% / 14% 18% 12% 20%;
+  --shape-organic-avatar: 52% 48% 55% 45% / 50% 54% 46% 50%;
+  --header-height: 88px;
+}

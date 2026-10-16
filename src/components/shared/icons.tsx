@@ -1,0 +1,3 @@
+import type { SVGProps } from 'react';
+export function LinkedInIcon(props: SVGProps<SVGSVGElement>) { return <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" {...props}><path d="M6.5 8.5v9M6.5 5.2v.1M11 17.5v-5a3 3 0 0 1 6 0v5M11 10.5v7"/><rect x="3" y="3" width="18" height="18" rx="4"/></svg>; }
+export function GitHubIcon(props: SVGProps<SVGSVGElement>) { return <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" {...props}><path d="M9 19c-4 .9-4-2-5-2m10 4v-3.4c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6.1 0-1.3-.5-2.4-1.3-3.3.1-.3.6-1.6-.1-3.2 0 0-1.1-.3-3.5 1.3a12.2 12.2 0 0 0-6.2 0C5.5 5.7 4.4 6 4.4 6c-.7 1.6-.2 2.9-.1 3.2C3.5 10.1 3 11.2 3 12.5c0 4.7 2.7 5.8 5.5 6.1-.4.4-.5.8-.5 1.5V21"/></svg>; }
